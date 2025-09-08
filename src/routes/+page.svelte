@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-	<title>streetr Beta</title>
+	<title>Streetr Beta</title>
 </svelte:head>
 
 <main class="splash-container" class:loading={animationPhase === 'loading'} class:reveal={animationPhase === 'reveal'} class:particles={animationPhase === 'particles'} class:complete={animationPhase === 'complete'}>
