@@ -2,6 +2,9 @@
 	import favicon from '$lib/assets/favicon.svg';
 
 	let { children } = $props();
+
+	// This line tells SvelteKit to generate HTML for your pages at build time.
+	export const prerender = true;
 </script>
 
 <svelte:head>
@@ -9,8 +12,3 @@
 </svelte:head>
 
 {@render children?.()}
-
-<script>
-    // This line tells SvelteKit to generate HTML for your pages at build time.
-    export const prerender = true;
-</script>
